@@ -41,7 +41,13 @@ function App() {
   return (
 
     <>
-      <div id="clock-container" style={{ color: textColor, backgroundColor: containerColor, borderColor: textColor }}>
+      <div id="clock-container" style={{
+
+        color: textColor,
+        backgroundColor: containerColor,
+        borderColor: textColor
+
+      }}>
 
         <p className="clock-day-time">{format(realTime, "eeee, MMMM do, yyyy")}</p>
         <p className="clock-day-time">{format(realTime, "HH:mm:ss")}</p>
