@@ -12,7 +12,9 @@
   justify-content: center;
   align-items: center;
   gap: 5vh;
+  width: 80vw;
   height: 25vh;
+  box-sizing: border-box;
   color: green;
   border: 5px dotted green;
   margin: auto;
